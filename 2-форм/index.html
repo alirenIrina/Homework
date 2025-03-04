@@ -8,30 +8,34 @@
 </head>
 
 <body>
-    <form action="#">
+    <main>
         <div>
-            <h1>Регистрация</h1>
-            <h2>Уже есть аккаунт? <a href="#">Войти</a></h2>
+            <div>
+                <h1>Регистрация</h1>
+                <p>Уже есть аккаунт? <a href="#">Войти</a></p>
+            </div>
+            <form action="#">
+                <div>
+                    <input type="text" placeholder="Компания" name="company" required />
+                </div>
+                <div>
+                    <input type="text" placeholder="Имя" name="firstname" required />
+                    <input type="text" placeholder="Фамилия" name="surname" required />
+                </div>
+                <div>
+                    <input type="email" placeholder="E-mail" name="email" required />
+                </div>
+                <div>
+                    <button type="submit">Зарегистрироваться</button>
+                </div>
+                <div>
+                    <input type="checkbox" name="agreement" id="agreement" required />
+                    <label for="agree">Я прочитал и принимаю</label>
+                    <a href="#">Условия использования</a>
+                </div>
+            </form>
         </div>
-        <div>
-            <input type="text" placeholder="Моя компания" name="Компания" required />
-        </div>
-        <div>
-            <input type="text" placeholder="Имя" name="Имя" required />
-            <input type="text" placeholder="Фамилия" name="Фамилия" required />
-        </div>
-        <div>
-            <input type="email" placeholder="E-mail" name="email" required />
-        </div>
-        <div>
-            <button type="submit">Зарегистрироваться</button>
-        </div>
-        <div>
-            <input type="checkbox" name="Условия пользования" id="agree" required />
-            <label for="agree">Я прочитал и принимаю</label>
-            <a href="#">Условия использования</a>
-        </div>
-    </form>
+    </main>
 </body>
 
 </html>
