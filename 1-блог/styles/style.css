@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+}
+
+header,
+article,
+footer,
+a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.logo {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a>span {
+    font-weight: 600;
+    background: #4b5563;
+}
+
+nav a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+input[type="text"] {
+    background: #1F2937;
+    border-radius: 100px;
+    width: 224px;
+    height: 40px;
+}
+
+::placeholder {
+    font-size: 16px;
+    color: #ADB1B7;
+}
+
+.headling {
+    font-size: 14px;
+    color: #ADB1B7;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 158%;
+}
+
+.nameAuthor {
+    font-size: 16px;
+    line-height: 175%;
+}
+
+.positionAuthor {
+    font-size: 14px;
+    line-height: 200%;
+    color: #ADB1B7;
+}
+
+.mainText {
+    font-size: 20px;
+    line-height: 160%;
+}
+
+.secondaryText {
+    font-size: 16px;
+    line-height: 187%;
+}
+
+footer {
+    font-size: 16px;
+    line-height: 175%;
+    color: #ADB1B7;
+}

@@ -1,0 +1,51 @@
+body {
+    background-color: #F39494;
+}
+
+div {
+    background-color: #FFFEFE;
+}
+
+h1 {
+    color: #333333;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #089FE0;
+}
+
+button {
+    background-color: #089FE0;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    height: 44px;
+    width: 394px;
+}
+
+input {
+    background-color: #F5F5F5;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+label {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
