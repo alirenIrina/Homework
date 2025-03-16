@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(180deg, #374151 0%, #111827 100%);
+    margin: 0;
 }
 
 header,
@@ -11,66 +12,111 @@ a {
     color: #ffffff;
 }
 
+header {
+    padding: 71px 0 69px 0;
+}
+
 .logo {
     font-size: 18px;
     text-decoration: none;
+    height: 23px;
+
 }
 
 a>span {
     font-weight: 600;
     background: #4b5563;
+    border-radius: 3px;
+    padding: 6px 12px;
 }
 
 nav a {
     font-size: 16px;
     text-decoration: none;
+    height: 19px;
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
 input[type="text"] {
-    background: #1F2937;
+    background-color: #1F2937;
+    height: 19px;
+    border-style: none;
     border-radius: 100px;
-    width: 224px;
-    height: 40px;
+    padding: 9px 0px 12px 49px;
 }
 
 ::placeholder {
     font-size: 16px;
     color: #ADB1B7;
+    height: 19px;
 }
+
 
 .headling {
     font-size: 14px;
     color: #ADB1B7;
+    height: 16px;
+    margin: 0 0 14px 0;
+}
+
+.bull {
+    margin: 6px 12px;
 }
 
 h1 {
     font-size: 24px;
     line-height: 158%;
+    height: 76px;
+    margin: 0 0 30px 0;
+}
+
+.autorArticle {
+    margin: 0 0 28px 0;
 }
 
 .nameAuthor {
     font-size: 16px;
     line-height: 175%;
+    height: 28px;
+    margin: 0;
 }
 
 .positionAuthor {
     font-size: 14px;
     line-height: 200%;
     color: #ADB1B7;
+    height: 28px;
+    margin: 0;
 }
 
 .mainText {
     font-size: 20px;
     line-height: 160%;
+    height: 101px;
+    margin: 69px 0 185px 0;
 }
 
 .secondaryText {
     font-size: 16px;
     line-height: 187%;
+    margin: 0;
 }
+
 
 footer {
     font-size: 16px;
     line-height: 175%;
     color: #ADB1B7;
+    padding: 103px 0 77px 0;
+}
+
+footer p {
+    height: 28px;
+    margin: 0;
 }
