@@ -1,68 +1,101 @@
-body {
-    background: linear-gradient(180deg, #374151 0%, #111827 100%);
-    margin: 0;
+* {
+    box-sizing: border-box;
 }
 
-header,
-article,
-footer,
-a {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    color: #ffffff;
+body {
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+    max-width: 1440px;
+    max-height: 1835px;
+    margin: 0 auto;
 }
 
 header {
-    padding: 71px 0 69px 0;
+    padding: 72px 0 69px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 346px;
 }
 
 .logo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
     font-size: 18px;
     text-decoration: none;
-    height: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
 
 }
 
 a>span {
+    font-family: "Roboto", sans-serif;
     font-weight: 600;
+    color: #ffffff;
     background: #4b5563;
     border-radius: 3px;
     padding: 6px 12px;
 }
 
 nav a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
     font-size: 16px;
     text-decoration: none;
-    height: 19px;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
 }
 
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 77px;
+}
 
 input[type="text"] {
+    font-family: "Roboto", sans-serif;
     background-color: #1F2937;
-    height: 19px;
-    border-style: none;
-    border-radius: 100px;
-    padding: 9px 0px 12px 49px;
-}
-
-::placeholder {
+    font-weight: 400;
     font-size: 16px;
-    color: #ADB1B7;
-    height: 19px;
+    border: none;
+    border-radius: 100px;
+    height: 40px;
+    padding-left: 49px;
 }
 
+form {
+    position: relative;
+}
+
+form img {
+    position: absolute;
+    top: 14px;
+    left: 18px;
+}
 
 .headling {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-size: 14px;
     color: #ADB1B7;
-    height: 16px;
-    margin: 0 0 14px 0;
+    text-align: center;
+    margin: 0;
 }
 
 .bull {
@@ -70,53 +103,92 @@ input[type="text"] {
 }
 
 h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
     font-size: 24px;
     line-height: 158%;
-    height: 76px;
-    margin: 0 0 30px 0;
+    text-align: center;
+    max-width: 525px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
 }
 
 .autorArticle {
     margin: 0 0 28px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
 }
 
 .nameAuthor {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
     font-size: 16px;
     line-height: 175%;
-    height: 28px;
     margin: 0;
 }
 
 .positionAuthor {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-size: 14px;
     line-height: 200%;
     color: #ADB1B7;
-    height: 28px;
     margin: 0;
 }
 
-.mainText {
-    font-size: 20px;
-    line-height: 160%;
-    height: 101px;
-    margin: 69px 0 185px 0;
+.main {
+    margin: 0 272px;
 }
 
-.secondaryText {
+.mainText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 160%;
+    margin: 69px 0 0 0;
+}
+
+.secondaryText,
+.thirdText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
     font-size: 16px;
     line-height: 187%;
     margin: 0;
 }
 
+.text {
+    max-width: 708px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 0 auto;
+}
 
 footer {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-size: 16px;
     line-height: 175%;
     color: #ADB1B7;
-    padding: 103px 0 77px 0;
+    text-align: center;
+    padding-top: 84px;
 }
 
 footer p {
-    height: 28px;
     margin: 0;
 }
