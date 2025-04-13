@@ -5,26 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Блог</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
     <header>
-        <a href="#" class="logo"><span>В</span> Мой блог</a>
-        <nav>
-            <ul>
-                <li><a href="#">HTML и CSS</a></li>
-                <li><a href="#">Frontend</a></li>
-                <li><a href="#">Backend</a></li>
-            </ul>
-        </nav>
-        <form action="#">
-            <input type="text" placeholder="Поиск" name="search" />
-        </form>
+        <div class="navigation">
+            <a href="#" class="logo"><span>В</span> Мой блог</a>
+            <nav>
+                <ul>
+                    <li><a href="#">HTML и CSS</a></li>
+                    <li><a href="#">Frontend</a></li>
+                    <li><a href="#">Backend</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="search">
+            <form action="#">
+                <img src="./images/search.svg" alt="search">
+                <input type="text" placeholder="Поиск" name="search" />
+            </form>
+        </div>
     </header>
     <article>
         <section>
-            <div>
+            <div class="head">
                 <p class="headling">
                     <span>FRONTEND</span>
                     <span class="bull">&bull;</span>
@@ -40,9 +49,9 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="main">
             <img src="./images/Rectangle 181.png" alt="Яркая картинка экрана компьютера" />
-            <div>
+            <div class="text">
                 <p class="mainText">
                     Теория цвета &mdash; это особенности эмоционального восприятия человеком тех или иных цветовых
                     решений.
@@ -61,7 +70,7 @@
                     закономерности влияния
                     цветов на поведение пользователей.
                 </p>
-                <p class="secondaryText">
+                <p class="thirdText">
                     В исследовании &laquo;Влияние цвета на маркетинг&raquo; &lpar;Impact of color on marketing&rpar;
                     говорится, что
                     использование разных цветов
