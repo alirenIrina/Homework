@@ -1,0 +1,76 @@
+.header {
+    background: var(--color-secondary);
+}
+
+.header__wrapper {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 40px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    margin-inline: 6px 12px;
+    display: flex;
+    gap: 32px;
+}
+
+.menu__item a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: var(--color-main-08);
+}
+
+.menu__item a:hover {
+    color: var(--color-main);
+}
+
+.header__mobile-menu {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+/*ноутбук*/
+@media (max-width: 1200px) {
+    .header__wrapper {
+        padding-block: 24px 19px;
+    }
+}
+
+/*планшет*/
+@media (max-width: 1024px) {}
+
+@media (max-width: 960px) {
+    .header__login {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .header__mobile-menu {
+        display: block;
+    }
+
+    .header__wrapper {
+        border-bottom: 1px solid var(--color-third-008);
+    }
+}
+
+/*смартфон*/
+@media (max-width: 768px) {}
+
+@media (max-width: 640px) {
+    .header__logo {
+        max-width: 65px;
+    }
+}
+
+/*очень маленький экран*/
+@media (max-width: 480px) {}
